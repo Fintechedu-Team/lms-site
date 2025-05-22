@@ -4,13 +4,13 @@ import Congratulation from "./CongratulationPage";
 import Userexp from "./Userexp";
 import girl from "../assets/girl.png";
 import video from "../assets/video.png";
-
+import group from "../assets/Group 9.png"
 const Hero = () => {
     return (
-        <div className="relative w-full bg-[#3EC3C1] h-screen md:h-[92vh] overflow-hidden">
+        <div className="relative w-full bg-[#3EC3C1] h-screen md:h-[100vh] overflow-hidden pt-16 md:pt-0">
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-8 lg:px-11 py-8 md:py-12 lg:py-16">
                 <div className="text-white max-w-xl mb-8 md:mb-0 z-10 space-y-6 md:space-y-8">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4 mt-6 md:mt-0">
                         <span className="text-orange-400">Studying</span> Online is now <br className="hidden sm:block" /> much easier
                     </h1>
                     <p className="text-sm sm:text-base md:text-lg text-white/90 mb-6">
@@ -33,6 +33,9 @@ const Hero = () => {
                     <img src={girl} alt="hero-girl" className="w-full z-6 relative " />
                     <div className="absolute top-[18%] left-[-15%] md:left-[-20%] z-20 hover:translate-y-[-5px] transition-transform duration-300 cursor-pointer hidden sm:block">
                         <Assisted/>
+                    </div>
+                    <div className="absolute top-[18%] left-[-15%] md:left-[-20%] z-20 hover:translate-y-[-5px] transition-transform duration-300 cursor-pointer hidden sm:block ml-[450px]">
+                       <img src={group} alt="" />
                     </div>
 
                     <div className="absolute top-[30%] right-[-10%] sm:top-[10%] sm:right-auto sm:left-[-20%] md:top-[65%] md:left-[-25%] z-20 hover:translate-y-[-5px] transition-transform duration-300 cursor-pointer">
