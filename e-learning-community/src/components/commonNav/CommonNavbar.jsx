@@ -79,7 +79,7 @@ const CommonNavbar = () => {
                     <Link to="/courses" className="block">Courses</Link>
                 </li>
                 <li className=" cursor-pointer">
-                    <Link to="" className="block">Careers</Link>
+                    <Link to="/careers" className="block">Careers</Link>
                 </li>
                 <li className=" cursor-pointer">
                     <Link to="/blogspage" className="block">Blog</Link>
