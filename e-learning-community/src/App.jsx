@@ -6,6 +6,10 @@ import BlogPage from "./pages/BlogPage"
 import CoursePage from "./pages/CoursePage"
 import CourseDetailPage from "./pages/CourseDetailPage"
 import MembershipPage from "./pages/MembershipPage"
+import CheckOutPage from "./pages/CheckOutPage"
+import BlogDetailPage from "./pages/BlogDetailPage"
+import CareersPage from "./pages/CareersPage"
+import SearchPage from "./pages/SearchPage"
 const App = () => {
   return (
    <>
@@ -17,6 +21,11 @@ const App = () => {
      <Route path="/courses" element={<CoursePage />} />
      <Route path="/course-detail/:title" element={<CourseDetailPage />} />
      <Route path="/membership" element={<MembershipPage />} />
+     <Route path="/checkout" element={<CheckOutPage />} />
+     <Route path="/blogdetail" element={<BlogDetailPage />} />
+     <Route path="/careers" element={<CareersPage />} />
+     <Route path="/search" element={<SearchPage />} />
+     
      
    </Routes>
    </BrowserRouter>
