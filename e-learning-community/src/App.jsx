@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Login from "./pages/Login"
 import './index.css' 
 import LandingPage from "./pages/LandingPage"
@@ -10,10 +10,10 @@ import CheckOutPage from "./pages/CheckOutPage"
 import BlogDetailPage from "./pages/BlogDetailPage"
 import CareersPage from "./pages/CareersPage"
 import SearchPage from "./pages/SearchPage"
+import LiteratureCoursePage from "./pages/LiteratureCoursePage"
 const App = () => {
   return (
    <>
-   <BrowserRouter>
    <Routes>
      <Route path="/" element={<LandingPage />} /> 
      <Route path="/login" element={<Login />} />
@@ -25,10 +25,8 @@ const App = () => {
      <Route path="/blogdetail" element={<BlogDetailPage />} />
      <Route path="/careers" element={<CareersPage />} />
      <Route path="/search" element={<SearchPage />} />
-     
-     
+     <Route path="/about" element={<LiteratureCoursePage />} />
    </Routes>
-   </BrowserRouter>
    </>
   )
 }
